@@ -1,6 +1,6 @@
 <?php
 /**
- * @var \App\View\AppView $this
+ * @var \Cake\View\View $this
  */
 ?>
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
