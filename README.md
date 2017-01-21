@@ -20,9 +20,10 @@ You can load the plugin using the shell command:
 bin/cake plugin load CakeApacheErrorTheme
 ```
 
-Or you can manually add the loading statement in the config/boostrap.php file of your application:
+Or you can manually add the loading statement in the config/bootstrap.php file of your application:
 
-```
+```php
+// config/bootstrap.php
 Plugin::load('CakeApacheErrorTheme');
 ```
 
@@ -31,6 +32,7 @@ Plugin::load('CakeApacheErrorTheme');
 set theme in the `ErrorController::beforeRender()`.
 
 ```php
+// src/Controller/ErrorController.php
     public function beforeRender(Event $event)
     {
         parent::beforeRender($event);
@@ -42,6 +44,7 @@ set theme in the `ErrorController::beforeRender()`.
 and `debug = false` in the `config/app.php`
 
 ```php
+// config/app.php
     'debug' => false,
 ```
 
