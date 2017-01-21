@@ -1,0 +1,20 @@
+{
+    "name": "tenkoma/cakephp-apache-error-app",
+    "description": "Make error pages such as Not Found and Internal Server Error Apache style.",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Koji Tanaka",
+            "email": "tenkoma@gmail.com"
+        }
+    ],
+    "require": {
+        "cakephp/cakephp": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "CakeApacheErrorTheme\\": "src"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+# CakePHP Apache Error Theme
